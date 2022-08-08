@@ -1,0 +1,26 @@
+.thumb-photo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    // flex: 0 0;
+    flex-shrink: 0;
+}
+
+.txt-small {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.txt-sm-small {
+    font-size: 12px;
+    line-height: 2;
+}
+
+.txt-md-small {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.my-update-btn {
+    padding: 4px 32px;
+}

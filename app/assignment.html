@@ -1,0 +1,181 @@
+---
+title: Assignment
+layout: ./app/layout.ejs
+engine: ejs
+current: assignment
+---
+
+<div class="d-flex justify-content-between align-items-center p-4 pb-3">
+    <div class="d-flex align-items-center gap-5">
+        <h2>Assignment</h2>
+        <select class="border-0">
+            <option value="all" class="fs-6 lh-base fw-bold text-dark">All Courses</option>
+        </select>
+    </div>
+    <div class="d-flex align-items-center gap-4">
+        <a href="#" class="text-dark">
+            <span class="material-symbols-outlined">
+                search
+            </span>
+        </a>
+        <a href="#" class="text-dark">
+            <span class="material-symbols-outlined">
+                notifications_active
+            </span>
+        </a>
+    </div>
+</div>
+
+<div class="d-flex p-4 gap-3">
+    <div class="assign-list">
+        <select class="border-0">
+            <option value="all" class="fs-6 lh-base fw-bold text-dark">All(4)</option>
+        </select>
+        <ul class="list-group">
+            <li class="list-group-item  list-group-item-action  bg-light">
+                <p class="d-flex justify-content-between align-items-center text-dark txt-sm-small mb-0">
+                    <span>Chapter Assignment 2</span>
+                    <span>4 hrs
+                        ago</span>
+                </p>
+                <p class="d-flex justify-content-between align-items-center text-secondary txt-sm-small mb-0">
+                    <span class="fs-6 lh-base fw-bold text-dark">Please check this file…</span>
+                    <span>Emily Wang</span>
+                </p>
+            </li>
+
+            <li class="list-group-item  list-group-item-action ">
+                <p class="d-flex justify-content-between align-items-center text-dark txt-sm-small mb-0">
+                    <span>Chapter Assignment 1</span>
+                    <span>12 hrs ago</span>
+                </p>
+                <p class="d-flex justify-content-between align-items-center text-secondary txt-sm-small mb-0">
+                    <span class="fs-6 lh-base fw-bold text-dark">My Homework</span>
+                    <span>David Xu</span>
+                </p>
+            </li>
+
+            <li class="list-group-item  list-group-item-action ">
+                <p class="d-flex justify-content-between align-items-center text-dark txt-sm-small mb-0">
+                    <span>Final Assignment</span>
+                    <span>18 hrs ago</span>
+                </p>
+                <p class="d-flex justify-content-between align-items-center text-secondary txt-sm-small mb-0">
+                    <span class="fs-6 lh-base fw-bold text-dark">Have a problem with this…</span>
+                    <span>Tony Wei</span>
+                </p>
+            </li>
+
+            <li class="list-group-item  list-group-item-action ">
+                <p class="d-flex justify-content-between align-items-center text-dark txt-sm-small mb-0">
+                    <span>Final Assignment</span>
+                    <span>19 hrs ago</span>
+                </p>
+                <p class="d-flex justify-content-between align-items-center text-secondary txt-sm-small mb-0">
+                    <span class="fs-6 lh-base fw-bold text-dark">Did I do it right?</span>
+                    <span>Christina Lin</span>
+                </p>
+            </li>
+        </ul>
+    </div>
+    <div class="assign-content">
+        <div class="txt-sm-small text-end">2 comments</div>
+
+        <ul class="list-group mb-3">
+            <li class="list-group-item   bg-light d-flex justify-content-between align-items-center">
+                <div>
+                    <small class="txt-sm-small text-dark">Chapter Assignment 2 / HTML&CSS</small>
+                    <h3 class="fs-6 lh-base fw-bold text-dark mb-0">Please check this file for me, thanks!</h3>
+                </div>
+                <span class="material-symbols-outlined fw-bold">
+                    more_vert
+                </span>
+            </li>
+
+            <li class="list-group-item  ">
+
+                <div class="p-3">
+                    <div class="d-flex mb-3">
+                        <img class="thumb-photo rounded-circle me-2" src="assets/images/emilywang.jpeg"
+                            alt="Emily Wang">
+                        <div>
+                            <h3 class="fs-6 lh-base fw-bold text-dark mb-0">Emily Wang</h3>
+                            <small class="txt-sm-small text-secondary">10:38 AM (4 hours ago)</small>
+                        </div>
+                    </div>
+
+                    <div class="mx-5 pb-3 border-bottom">
+                        <p class="txt-md-small">Hi Teacher, the attached file is my homework of chapter 2. And here
+                            comes a
+                            question:
+                            Why in the following
+                            code the height of the <span class="text-success">div</span> is bigger than the height of
+                            the
+                            <span class="text-success">img</span> ? There is a gap below the image, but it
+                            doesn’t seems to be a padding/margin. What is the gap or extra space below image?
+                        </p>
+                        <button type="button"
+                            class="btn btn-outline-secondary d-flex align-items-center fs-6 lh-base fw-bold py-2">
+                            <span class="material-symbols-outlined text-secondary me-2">
+                                attach_file
+                            </span>
+                            HW-2-David.zip
+                        </button>
+                    </div>
+                </div>
+                <div class="px-3">
+                    <div class="d-flex mb-3">
+                        <img class="thumb-photo rounded-circle me-2" src="assets/images/andychen.jpeg" alt="Emily Wang">
+                        <div class="flex-fill pe-5">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h3 class="fs-6 lh-base fw-bold text-dark mb-0">Andy Chen (You)</h3>
+                                <div>
+                                    <span class="material-symbols-outlined">
+                                        star
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        edit
+                                    </span>
+                                </div>
+                            </div>
+
+                            <small class="txt-sm-small text-secondary">10:38 AM (4 hours ago)</small>
+                        </div>
+                    </div>
+
+                    <div class="mx-5 pb-3">
+                        <p class="txt-md-small mb-0">
+                            Hi David, by default, an image is rendered inline, like a letter so it sits on the same line
+                            that a, b, c
+                            and d sit on. There is space below that line for the descenders you find on letters like g,
+                            j, p and
+                            q.<br><br>
+                            You can:<br><br>
+                            　• adjust the <span class="text-success">vertical-align</span> of the image to position it
+                            elsewhere (e.g.
+                            the middle ) or
+                            <br>
+                            　• change the <span class="text-success">display</span> so it isn’t inline.
+                        </p>
+
+                    </div>
+                </div>
+
+            </li>
+        </ul>
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <a href="#" class="text-decoration-none"><span class="material-symbols-outlined me-4 fw-bold">
+                        chevron_left
+                    </span></a>
+                <a href="#" class="text-decoration-none"><span class="material-symbols-outlined fw-bold">
+                        chevron_right
+                    </span></a>
+            </div>
+            <div class="">
+                <a href="#" class="btn btn-outline-success my-update-btn fw-bold">Mark as read</a>
+                <a href="assignment-reply.html" class="btn btn-success my-update-btn fw-bold">Reply</a>
+            </div>
+        </div>
+    </div>
+</div>

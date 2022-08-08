@@ -1,0 +1,25 @@
+.nav {
+    width: 296px;
+    height: 800px;
+}
+
+.nav-link:hover {
+    background-color: #1e9f63 !important;
+
+    & a {
+        color: white !important;
+    }
+
+
+}
+
+.nav-img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+
+.nav-contact a:hover {
+    background-color: orange;
+    color: rgba(white, $alpha: 0.8) !important;
+}

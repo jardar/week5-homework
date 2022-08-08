@@ -1,0 +1,16 @@
+.assign-list {
+    width: 32%;
+    flex-shrink: 0;
+}
+
+.rotate-font {
+    transform: rotate(-90deg);
+}
+
+textarea {
+    resize: none;
+
+    &::placeholder {
+        color: rgba($color: #000000, $alpha: 0.125);
+    }
+}
